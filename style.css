@@ -1,0 +1,110 @@
+@font-face {
+        font-family: 'subway';
+        src: url('fonts/Subway-Black.ttf');
+}
+
+@font-face {
+        font-family: 'pizza';
+        src: url('fonts/pepperoni-pizza.ttf');
+}
+
+p {
+        padding: 0;
+        margin: 0;
+}
+
+::selection {
+        background: #C4D8AB;
+        color: #017756;
+}
+
+body {
+        padding: 0;
+        margin: 0;
+        background-image: url("images/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+canvas {
+        border-top: solid #004733;
+        border-right: solid #004733;
+        width: 640px;
+        height: 480px;
+        margin-right: auto;
+        display: block;
+}
+
+div.container {
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+}
+
+div.game {
+        font: 50px subway;
+        color: #97E243;
+        text-align: center;
+        background-color: #017756;
+        display: flex;
+        flex-direction: column;
+}
+
+div.row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+}
+
+div.menu {
+        border: solid #004733;
+        border-bottom: 0;
+        background-color: #97E243;
+        font: 27px subway;
+        color: #004733;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-left: auto;
+}
+
+div.menu-point {
+}
+
+div.time {
+        height: 10%;
+        border-bottom: solid #004733;
+}
+
+div.money {
+        height: 10%;
+        border-bottom: solid #004733;
+}
+
+div.hint {
+        height: 69%;
+}
+
+div.canvas-div {
+        background-color: #017756;
+        text-align: center;
+        font: 50px subway;
+        color: #97E243;
+}
+
+span {
+        font-family: 'pizza';
+}
+
+div.footer {
+        border-top: solid #004733;
+        padding: 10px;
+        text-align: center;
+        background-color: #97E243;
+        height: 100%;
+        font: 27px subway;
+        color: #004733;
+}

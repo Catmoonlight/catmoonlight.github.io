@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SUBWAY GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <p>SUPER SUBWAY SIMULATOR</p>
+
+            <div class="row">
+                <div class="menu">
+                    <div class="menu-point time" id="time"><p>1:00</p></div>
+                    <div class="menu-point money" id="money"><p>200$</p></div>
+                    <div class="menu-point hint" id="hint"><p>dunno wat tu write</p></div>
+                </div>
+                <canvas id="huianvas" width="640" height="480">
+                </canvas>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Imagine, you didn't study well this year, and you were expelled from <span>MATMEX</span>.<br/>Now the paths to an internship in a prestigious IT company are closed for you, and you went to an internship at <span>SUBWAY</span>. Endure the scornful looks of your former classmates and earn money for paid education. Good luck!</p>
+        </div>
+    </div>
+</body>
+<script src="scripts/everything/constants.js"></script>
+
+<script src="scripts/everything/base/pic.js"></script>
+<script src="scripts/everything/base/gameObject.js"></script>
+<script src="scripts/everything/base/pictureObject.js"></script>
+<script src="scripts/everything/base/selectableObject.js"></script>
+
+<script src="scripts/everything/pickable/Ingredient.js"></script>
+
+<script src="scripts/everything/picked/CursorObject.js"></script>
+<script src="scripts/everything/picked/PickedSandwich.js"></script>
+
+<script src="scripts/everything/other/Oven.js"></script>
+<script src="scripts/everything/other/TrashBin.js"></script>
+<script src="scripts/everything/other/Bread.js"></script>
+
+<script src="scripts/level/Client.js"></script>
+<script src="scripts/level/ClientManager.js"></script>
+<script src="scripts/level/Cursor.js"></script>
+<script src="scripts/level/settings.js"></script>
+<script src="scripts/level/Level.js"></script>
+<script src="scripts/level/LevelStarter.js"></script>
+
+<script src="scripts/game.js"></script>
+
+<script src="index.js"></script>
+</html>
